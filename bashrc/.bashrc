@@ -9,3 +9,6 @@ alias ....='cd ../../..'
 
 # Setup `zoxide`
 eval "$(zoxide init --cmd cd bash)"
+
+# Apply theme to new terminals
+(cat ~/.cache/wal/sequences &)
