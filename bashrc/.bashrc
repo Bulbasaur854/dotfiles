@@ -8,4 +8,4 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 
 # Setup `zoxide`
-eval "$(zoxide init bash)"
+eval "$(zoxide init --cmd cd bash)"
