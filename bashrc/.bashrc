@@ -7,7 +7,10 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
-# Setup `zoxide`
+# Setup starhip
+eval "$(starship init bash)"
+
+# Setup zoxide
 eval "$(zoxide init --cmd cd bash)"
 
 # Apply theme to new terminals
