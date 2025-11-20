@@ -20,6 +20,7 @@
     "network",
     "bluetooth",
     "hyprland/language",
+    "battery",
     // "group/cava-group",
     "clock"
   ],
@@ -58,6 +59,25 @@
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "interval": 3,
     "on-click": "~/.config/waybar/scripts/launch-impala.sh"
+  },
+
+  "battery": {
+    "format": "{icon}  {capacity}%",
+    "format-icons": {
+      "charging": [
+        "󰢜","󰂆","󰂇","󰂈","󰢝","󰂉","󰢞","󰂊","󰂋","󰂅"
+      ],
+      "default": [
+        "󰁺","󰁻","󰁼","󰁽","󰁾","󰁿","󰂀","󰂁","󰂂","󰁹"
+      ]
+    },
+    "format-full": "Charged ",
+    "interval": 5,
+    "states": {
+      "warning": 20,
+      "critical": 10
+    },
+    "tooltip": true
   },
 
   "pulseaudio": {
