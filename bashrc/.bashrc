@@ -6,3 +6,6 @@ alias gg="lazygit"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+# Setup `zoxide`
+eval "$(zoxide init bash)"
