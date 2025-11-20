@@ -1,3 +1,5 @@
+@import url("/home/bulb/.cache/wal/colors-waybar.css");
+
 * {
   border: none;
   border-radius: 0;
@@ -5,10 +7,12 @@
   font-family: 'CaskaydiaMono Nerd Font';
   font-size: 12px;
   transition: all 0.5s ease;
+  color: @color14;
 }
 
 window#waybar {
   background-color: rgba(0, 0, 0, 0);
+  color: @foreground;
 }
 
 #workspaces button,
@@ -18,7 +22,7 @@ window#waybar {
 #network,
 #pulseaudio,
 #cava-group {
-  
+  background-color: @background;
 }
 
 #clock,
@@ -28,7 +32,7 @@ window#waybar {
 #pulseaudio,
 #cava-group {
   padding: 4px 10px;
-  border-bottom: 2px solid pink;
+  border-bottom: 2px solid @color15;
 }
 
 #workspaces button {
@@ -37,11 +41,11 @@ window#waybar {
 }
 
 #workspaces button.focused {
-  border-bottom: 2px solid pink;
+  border-bottom: 2px solid @color15;
 }
 
 #workspaces button.active {
-  border-bottom: 2px solid pink;
+  border-bottom: 2px solid @color15;
 }
 
 #network {
