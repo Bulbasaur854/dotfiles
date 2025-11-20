@@ -17,6 +17,7 @@ window#waybar {
 
 #workspaces button,
 #clock,
+#battery,
 #language,
 #bluetooth,
 #network,
@@ -26,6 +27,7 @@ window#waybar {
 }
 
 #clock,
+#battery,
 #language,
 #bluetooth,
 #network,
