@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 # exec setsid xdg-terminal-exec --app-id=Impala -e impala "$@"
-exec setsid impala
+exec setsid kitty impala
