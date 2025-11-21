@@ -62,7 +62,7 @@
   },
 
   "battery": {
-    "format": "{icon}  {capacity}%",
+    "format": "{icon} {capacity}%",
     "format-icons": {
       "charging": [
         "󰢜","󰂆","󰂇","󰂈","󰢝","󰂉","󰢞","󰂊","󰂋","󰂅"
