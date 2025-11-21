@@ -34,7 +34,7 @@ window#waybar {
 #pulseaudio,
 #cava-group {
   padding: 4px 10px;
-  border-bottom: 2px solid @color15;
+  border-bottom: 2px solid @color3;
 }
 
 #workspaces button {
@@ -43,11 +43,11 @@ window#waybar {
 }
 
 #workspaces button.focused {
-  border-bottom: 2px solid @color15;
+  border-bottom: 2px solid @color3;
 }
 
 #workspaces button.active {
-  border-bottom: 2px solid @color15;
+  border-bottom: 2px solid @color3;
 }
 
 #network {
