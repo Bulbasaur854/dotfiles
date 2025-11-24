@@ -38,8 +38,8 @@
 
   "hyprland/language": {
     "format": "{}",
-    "format-en": "EN 🇺🇸",
-    "format-he": "HE 🇮🇱",
+    "format-en": "EN",
+    "format-he": "HE",
     "on-click": ""
   },
 
