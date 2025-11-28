@@ -8,12 +8,3 @@ alias ls="ls -l"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-
-# Setup starhip
-eval "$(starship init bash)"
-
-# Setup zoxide
-eval "$(zoxide init --cmd cd bash)"
-
-# Apply theme to new terminals
-(cat ~/.cache/wal/sequences &)
